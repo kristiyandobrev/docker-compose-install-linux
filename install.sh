@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update and upgrade
-sudo apt-get update && sudo apt-get upgrade
+sudo apt-get update -y && sudo apt-get upgrade -y
 
 # Install Docker
 curl -sSL https://get.docker.com | sh
